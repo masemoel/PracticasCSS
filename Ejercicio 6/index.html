@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <ul>
+            <li class="preguntas">id: Pregunta 1- Las combinaciones de 4 celdas con fondo celeste, las combinaciones de 3 celdas con fondo amarillo, las combinaciones de 2 celdas con fondo gris.</li>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="4"></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td rowspan="2"></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td rowspan="3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="4"></td>
+                </tr>
+            </table>
+            <div>En este caso hemos coloreado las etiquetas que tienen el atributo colspan y rowspan igual a 2,3,4. En total seis estilos.</div>
+            <li class="preguntas">id: Pregunta 2 - Decora los li que corresponden a las preguntas (identificados con pregunta1, pregunta2, ...) con letra Verdana y otro tipo de marcador, deja el resto igual, por ejemplo los siguientes.</li>
+            <ul id="negro">
+                <li>Sin id - aaa</li>
+                <li>Sin id - bbb, <span id="negrita">aquí un texto en negrita que no establece el fondo en amarillo</span></li>
+                <li>Sin id - ccc</li>
+            </ul>
+            <div>Como las preguntas tienen un id, utilizaremos un estilo para li[id]</div>
+            <li class="preguntas">id: Pregunta 3 - Crea un estilo que cuando aparezca un texto en negrita en la pregunta (como este) le ponga el fondo en amarillo.</li>
+            <div>Utilizamos li[id] strong, es decir, el mismo estilo que en la pregunta anterior pero seguido de la palabra strong para indicar que se aplicará a las etiquetas strong que estén dentro de un li que tengan id.</div>
+            <li class="preguntas">id: Pregunta 4 - Crea un estilo que se aplique a los comentarios letra itálica y borde punteado (lo aconsejable es una clase).</li>
+            <p>Los párrafos normales como este no aparecerán dentro del recuadro.<br/><br/>
+            <span id="cursiva">Este párrafo sigue al anterior.</span></p>
+            <li class="preguntas">id: Pregunta 5 - Crea un estilo subrayado para los párrafos que siguen a otro párrafo.</li>
+            <li class="preguntas">id: Pregunta 6 - Pon fondo celeste a los hipervínculos que sean hijos directos de un párrafo. Este <span id="azulado">vínculo</span> sí, pero este que está dentro de <span id="cursiva2">una marca cursiva no</span>.</li>
+        </ul>
+    </body>
+</html>

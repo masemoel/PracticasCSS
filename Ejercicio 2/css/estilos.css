@@ -1,0 +1,12 @@
+.puntos {
+    border: 3px dotted #0e0eff;
+	width: 60%;
+}
+
+.ancho {
+    width: 300px;
+    margin: auto;
+	background-color: #ffffcc;
+	border: 2px solid #009900;
+	padding: 5%;
+}

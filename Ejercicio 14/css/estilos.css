@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3d3d3;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+
+div {
+    z-index: 1;
+    position: absolute;
+    width: 19%;
+    height: 7em;
+    padding: 7px;
+}
+
+.marron {
+    background-color: #dbc9a6;
+    border: 1.5px solid #9b8f76;
+    width: 45%;
+    height: 35px;
+    margin-left: 27%;
+    padding-top: 4px;
+    text-align: center;
+}
+
+.amarillo {
+    background-color: #ffffb3;
+    border: 2px solid #ebeba5;
+    top: 16.5%;
+    left: 25%;
+}
+
+.azul {
+    background-color: #c6ffff;
+    border: 2px solid #98c4c4;
+    text-align: right;
+    top: 16.5%;
+    right: 25%;
+}
+
+.verde {
+    background-color: #91ff91;
+    border: 2px solid #64b064;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+    z-index: 2;
+}
+
+.morado {
+    background-color: #ffe5ff;
+    border: 2px solid #baa7ba;
+    bottom: 43%;
+    left: 25%;
+}
+
+.granate {
+    background-color: #ffb4b4;
+    border: 2px solid #865f5f;
+    text-align: right;
+    bottom: 43%;
+    right: 25%;
+}
+
+.amarillo:hover { z-index:3; }
+.azul:hover { z-index:3; }
+.morado:hover { z-index:3; }
+.granate:hover { z-index:3; }

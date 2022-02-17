@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { font-family: 'Times New Roman', Times, serif; }
+
+div {
+    position: absolute;
+	width: 70px;
+	height: 70px;
+}
+
+.azuloscuro {
+    border: 2px solid #0000ff;
+    top: 0;
+    left: 0;
+}
+
+.verdeclaro {
+    border: 2px solid #64ff64;
+    top: 70px;
+    left: 100px;
+}
+
+.verdeoscuro {
+    border: 2px solid #086808;
+    bottom: 0;
+    left: 0;
+}
+
+.rosa {
+    border: 2px solid #f1b6c0;
+    top: 50%;
+    right: 0;
+}
+
+.naranja {
+    border: 2px solid #ffb329;
+    bottom: 50%;
+    right: 50%;
+}
+
+.rojo {
+    border: 2px solid #ff2929;
+    top: 50%;
+    left: 50%;
+}
+
+.azulpeque {
+    border: 2px solid #1fffff;
+    top: 25%;
+    right: 25%;
+}
+
+.azulgrande {
+    border: 2px solid #1fffff;
+    top: 50%;
+    right: 50%;
+    width: 400px;
+	height: 400px;
+    margin-right: -200px;
+    margin-top: -200px;
+}
+
+.consejo {
+    top: 15px;
+    right: 0;
+    width: 225px;
+}
+
+.puntos_ver {
+    height: 100%;
+    width: 50%;
+    border: 1px dashed #808080;
+}
+
+.puntos_hor {
+    height: 50%;
+    width: 100%;
+    border: 1px dashed #808080;
+}

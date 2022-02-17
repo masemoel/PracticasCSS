@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+h1 { text-transform: uppercase; }
+h1,h2 { text-align: center; }
+
+.contenido {
+    width: 100%;
+    height: 100vh;
+    background-color: #eeeeee;
+    border-top: 5px solid #000000;
+}
+
+#gris {
+    width: 80%;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #bbbbbb;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #979797;
+    padding: 3em;
+}
+
+#mujeres,#amor {
+    width: 55%;
+    padding: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    border-top: 4px solid #979797;
+    border-left: 4px solid #979797;
+    border-bottom: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+}

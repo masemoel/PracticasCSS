@@ -1,0 +1,51 @@
+.indentado {
+    padding-left: 50px;
+	padding-right: 50px;
+    font-weight: bold;
+	font-style: italic;
+}
+
+.amarillo {
+    background-color: #ffff66;
+    font-weight: bold;
+    color: #0609f5;
+}
+
+.azul {
+    background-color: #ccffff;
+    color: #3519ff;
+	font-family: Arial;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+
+h3 {
+    background-color: #00cc00;
+    color: #fffe00;
+    border: 2px solid #336600;
+
+}
+
+.class {
+    color: #cc3300;
+    border-bottom: 2px dotted #c6e272;
+    font-family: Arial;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#morado {
+    background-color: #cc99ff;
+    color: white;
+    letter-spacing: 0.5em;
+	word-spacing: 0.4em;
+}
+
+table {
+	width: 100%;
+	border: 1px solid #8a8a8a;
+}
+
+td {
+	border: 1px solid black;
+}

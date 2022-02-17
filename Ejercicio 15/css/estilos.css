@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d7e6f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    width: 100%;
+    height: 100vh;
+}
+
+#lateral {
+    width: 10%;
+    height: 100vh;
+    background-image: url(../imagenes/kde.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    float: left;
+}
+
+#principal {
+    width: 90%;
+    height: 100vh;
+    background-color: #1c438c;
+    float: left;
+}
+
+h1 {
+    padding: 0.25em;
+    color: #ffffff;
+    text-align: center;
+}
+
+#secundario {
+    background-color: #d7e6f4;
+    height: 100vh;
+    margin: 3%;
+    margin-top: 0;
+    padding: 20px;
+}
+
+.menu {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.menu a {
+    display: inline-block;
+    width: auto;
+    padding: 4px;
+    height: 30px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    background-color: #1c438c;
+    color: #ffffff;
+}
+
+.entornos {
+    background-color: #1c438c;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+
+h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-left: 2%;
+}
+h3::first-letter { font-size: 1.25em;}
+
+#tercero {
+    background-color: #d7e6f4;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+    padding: 12px;
+    padding-top: 24px;
+}
+
+a {
+    color: #1c438c;
+    font-weight: bolder;
+    text-decoration: initial;
+}

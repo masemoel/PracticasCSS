@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+	background-image: url(../imagenes/fondo.gif);
+	background-repeat: repeat-y;
+	margin-left: 6.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table,td { border: 2.5px solid #575757;}
+
+table {
+    border-collapse: collapse;
+    margin-left: 6em;
+}
+
+td {
+    padding-left: 15px;
+    height: 40px;
+	width: 100px;
+}
+
+.especial {
+    text-transform: lowercase;
+    font-family: Arial;
+    text-align: right;
+    line-height: 2;
+    word-spacing: 10px;
+    letter-spacing: -1.25px;
+}
+.especial::first-line {
+    text-transform: uppercase;
+    line-height: 2;
+}
+.especial::first-letter { font-size: 2em; }
+
+/* Cursores */
+.auto { cursor: auto; }
+.crosshair { cursor: crosshair; }
+.pointer { cursor: pointer; }
+.move { cursor: move; }
+.text { cursor: text; }
+.wait { cursor: wait; }
+.help { cursor: help; }
+.nr { cursor: n-resize; }
+.ner { cursor: ne-resize; }
+.er { cursor: e-resize; }
+.ser { cursor: se-resize; }
+.swr { cursor: sw-resize; }
+.wr { cursor: w-resize; }
+.nwr { cursor: nw-resize; }
+
+/* Cajas */
+div {
+    background-color: #fffcdf;
+    height: 30px;
+	width: 100px;
+	margin: 1.5em;
+	float: left;
+	text-align: center;
+    padding-top: 23px;
+}
+.none { border: 3px none #000000 }
+.dotted { border: 3px dotted #000000 }
+.dashed { border: 3px dashed #000000 }
+.solid { border: 3px solid #000000 }
+.double {
+    border: 3px double #000000;
+    clear: left;
+}
+.groove { border: 3px groove #000000 }
+.ridge { border: 3px ridge #000000 }
+.inset { border: 3px inset #000000 }
+.outset { border: 3px outset #000000 }
+
+/* Cruz verde */
+.cruz_hor,.cruz_ver {
+    background-color: #7fb27f;
+    clear: both;
+    position: absolute;
+    top: 43%;
+	left: 48%;
+    transform: translate(-50%, -50%);
+    padding-top: 0px;
+}
+.cruz_hor {
+    width: 100px;
+	height: 20px;
+}
+.cruz_ver {
+    width: 20px;
+	height: 100px;
+}

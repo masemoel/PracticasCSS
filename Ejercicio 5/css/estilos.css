@@ -1,0 +1,29 @@
+body { font-family: Arial, Helvetica, sans-serif; }
+
+.lmsgi {
+    background-color: #99cc33;
+    float: right;
+    padding-left: 25px;
+}
+
+h1 {
+    text-decoration: underline;
+    color: #006600;
+    text-align: center;
+}
+
+p {
+    background-color: #ffff99;
+    color: #0350d2;
+    font-size: 1.25em;
+}
+span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ul {
+    font-style: italic;
+    font-weight: bold;
+}
+li { list-style-image: url(../imagenes/flecha.png); }

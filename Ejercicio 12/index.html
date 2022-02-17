@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <p><span>Static:</span> es el posicionamiento por defecto, según el flujo normal del HTML. Por tanto, el valor static no será necesario indicarlo.</p>
+        <div class="static1">Capa con posicionamiento static.</div>
+        <h2>Otra capa static:</h2>
+        <div class="static2">Esta capa también tiene posicionamiento<br/>static aunque no se haya<br/>especificado, pues es el valor por defecto.</div>
+        <p class="pabsolute"><span>Absolute:</span> es el posicionamiento según las distancias especificadas a través de los atributos top, left, right y bottom.</p>
+        <div class="absolute1">Capa con posicionamiento absolute y se verá bajo otras capas con z-index mayores.</div>
+        <div class="absolute2">Capa con posicionamiento absolute. top y left la posiciona respecto a la esquina superior izquierda.</div>
+        <p class="prelative"><span>Relativo:</span> la coloca igual que la estática y le aplica las coordenadas relativas con respecto a su posición.</p>
+        <div class="relative">Capa relativa. separada 100px del párrafo anterior y 40 de la izquierda.</div>
+        <div class="absolute3">Capa con posicionamiento absolute. bottom y right me permite posicionarla respecto a la esquina inferior derecha.</div>
+        <p><span>Fixed:</span> igual que el absoluto, pero la posición siempre será visible aunque utilicemos las barras de desplazamiento.</p>
+        <div class="fija">Fija en la esquina inferior.</div>
+    </body>
+</html>

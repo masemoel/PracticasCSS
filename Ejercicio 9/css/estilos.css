@@ -1,0 +1,25 @@
+body { font-family: Arial; }
+
+h1 {
+    text-transform: uppercase;
+	text-align: center;
+}
+
+p { text-align: justify; }
+
+.uno {
+    float: left;
+    margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+hr {
+    border: 1px solid #000000;
+    margin: 3em;
+    margin-bottom: 2em;
+}
+
+.dos {
+    float: right;
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+body {
+	background-image: url("../imagenes/fondo.jpg");
+	background-repeat: no-repeat;
+}
+
+a {
+    color: #a01125;
+    text-decoration: underline;
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #99ffcc;
+}
+
+a:hover { background-color: #ffff00; }
+
+a:visited {background-color: #ffffff; }
+
+a:active {
+    border-width: 2px;
+	border-style: solid;
+}
+
+ol { list-style-type: upper-roman; }
+
+ul { 
+    list-style-image: url("../imagenes/ol.png");
+}
