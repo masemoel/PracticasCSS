@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: h1header;
+    src: url(../fuentes/Bangers-Regular.ttf);
+}
+
+.contenedor {
+    height: 100vh;
+    width: 100%;
+}
+
+header { background: -moz-linear-gradient(left, #ff6000,#ffa500); }
+header h1 {
+    margin-left: 3em;
+    color: #ffffff;
+    padding: 15px;
+    font-family: h1header;
+}
+
+#busquedaimg {
+    position: absolute;
+    top: 1.25em;
+    right: 13em;
+}
+
+header input {
+    position: absolute;
+    top: 1.5em;
+    right: 4em;
+    height: 25px;
+}
