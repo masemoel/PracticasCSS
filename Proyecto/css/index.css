@@ -34,3 +34,30 @@ header input {
     right: 4em;
     height: 25px;
 }
+
+footer {
+    position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+    background: -moz-linear-gradient(left, #ffffff, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ffffff);
+    height: 30px;
+    width: 100%;
+}
+
+.copy {
+    text-align: right;
+    position: absolute;
+    bottom: 5px;
+    right: 6em;
+    font-weight: bold;
+}
+
+#centrosoporte {
+    position: absolute;
+    bottom: 3px;
+	left: 50%;
+	transform: translate(-50%);
+    font-weight: bold;
+}
+#centrosoporte a { text-decoration: none; }
