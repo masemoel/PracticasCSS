@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { font-family: Arial, Helvetica, sans-serif; }
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    background-color: #dfdfdf;
+}
+
+.pagina {
+    border: 1px solid #cecece;
+    background-color: #ffffff;
+    width: 95%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    width: 100%;
+    height: 40px;
+    background-color: #dddcde;
+}
+
+#areaclientes, #elementos { padding: 10px; }
+#elementos { float: right; }
+#elementos img { margin-right: 1em; }
+#areaclientes {
+    float: right;
+    background-color: #3473a9;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#banner { clear: both; }
+#banner img {
+    width: inherit;
+    height: 100px;
+    float: left;
+    margin-left: 1em;
+}
+
+.titulo {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: #3574aa;
+    font-size: 2em;
+}
+.titulo span { font-weight: bold; }
+
+.subtitulo {
+    position: absolute;
+    top: 14%;
+    left: 30%;
+}
+
+#normativa {
+    background-color: #eeeeee;
+    float: right;
+    margin-right: 3em;
+    padding: 15px;
+    width: 450px;
+}
+
+.negrita {
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+#lema {
+	clear: both;
+    background-color: #3574aa;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+#llamanos { background-color: #000000; }
+
+#contenidollamanos {
+    background-color: #ffffff;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenidollamanos h5 {
+    padding-left: 20px;
+    color: #3574aa;
+    text-transform: uppercase;
+}
+#contenidollamanos img { float: left; }
+
+#tellamamos {
+    float: right;
+    margin-right: 2em;
+}
+#tellamamos input { margin-bottom: 1em; }
+#tellamamos span { color: #3473a9; }
+#tellamamos #enviar {
+    background-color: #3574aa;
+    border-radius: 25px;
+    padding: 15px;
+    width: 160px;
+    color: #ffffff;
+}
+
+#telefono {
+    clear: both;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+}
+#telefono p { text-align: center; }
+#telefono span {
+    color: #3473a9;
+    font-size: 2em;
+}
+
+.oferta {
+    border: 1px solid #e8e8e8;
+    padding: 35px;
+}
+.oferta img {
+    float: left;
+    margin-right: 1em;
+}
+
+#ahorro {
+    clear: both;
+    position: absolute;
+    top: 88%;
+    left: 20%;
+    text-transform: uppercase;
+}
+#ahorro span {
+    color: #3473a9;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 2em;
+}
+
+#ofertames {
+    position: absolute;
+    top: 88%;
+    right: 5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+#ofertames span { font-size: 2em; }
+
+.avisoinmediato {
+    clear: both;
+    border: 1px solid #e8e8e8;
+}
+
+#texto {
+    float: left;
+    width: 50%;
+    padding: 4em;
+}
+#texto h2 { text-align: center; }
+.imagen {
+    float: right;
+    width: 50%;
+}
+.imagen img {
+    width: 100%;
+    height: 100%;
+}
