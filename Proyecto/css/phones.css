@@ -1,0 +1,101 @@
+@font-face {
+    font-family: h2header;
+    src: url(../fuentes/JosefinSans.ttf);
+}
+
+body { font-family: h2header; }
+
+#info {
+    margin-top: 3em;
+    height: 100vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fotos img {
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+#promo {
+    float: left;
+    padding-left: 50px;
+    width: 650px;
+    height: 400px;;
+}
+#promo h1 { color: grey; }
+
+#memorias {
+    clear: both;
+    float: left;
+    padding-top: 15px;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    width: 90px;
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: grey;
+    text-align: center;
+}
+#memorias:hover {
+    border: 3px solid grey;
+    padding-top: 13px;
+}
+
+#memoriasextra {
+    float: left;
+    padding-top: 15px;
+    text-align: center;
+    width: 90px;
+    height: 45px;
+    margin-top: 1em;
+    margin-right: 2em;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: grey;
+}
+#memoriasextra:hover {
+    border: 3px solid grey;
+    padding-top: 13px;
+}
+
+#precio {
+    clear: both;
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: red;
+}
+
+#ofertaimg {
+    float: left;
+    margin-left: 1em;
+}
+
+#valoraciones {
+    clear: both;
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#valoraciones img { width: 58px; }
+
+#cantidad  {
+    clear: both;
+    float: left;
+}
+#cantidadform {
+    float: left;
+    margin-left: 1em;
+    width: 25px;
+    text-align: center;
+}
+
+#carritoimg {
+    float: left;
+    margin-left: 0.6em;
+}

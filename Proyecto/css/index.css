@@ -14,7 +14,10 @@
     width: 100%;
 }
 
-header { background: -moz-linear-gradient(left, #ff6000,#ffa500); }
+header {
+    background: -moz-linear-gradient(left, #ff6000,#ffa500);
+    background: -webkit-linear-gradient(left, #ff6000,#ffa500);
+}
 header h1 {
     margin-left: 3em;
     color: #ffffff;
@@ -25,7 +28,7 @@ header h1 {
 #busquedaimg {
     position: absolute;
     top: 1.25em;
-    right: 13em;
+    right: 15%;
 }
 
 header input {
