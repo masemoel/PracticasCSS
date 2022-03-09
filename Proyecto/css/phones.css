@@ -13,9 +13,16 @@ body { font-family: h2header; }
     margin-right: auto;
 }
 
-#fotos img {
+#rn9simg, #aliothimg {
     float: left;
     width: 500px;
+    height: 500px;
+}
+
+#mi11img {
+    margin-left: 3em;
+    float: left;
+    width: 425px;
     height: 500px;
 }
 
@@ -45,7 +52,6 @@ body { font-family: h2header; }
     border: 3px solid grey;
     padding-top: 13px;
 }
-
 #memoriasextra {
     float: left;
     padding-top: 15px;
