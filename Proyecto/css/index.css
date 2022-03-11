@@ -23,6 +23,7 @@ header h1 {
     color: #ffffff;
     padding: 15px;
     font-family: h1header;
+    font-weight: normal;
 }
 
 #busquedaimg {
@@ -38,12 +39,109 @@ header input {
     height: 25px;
 }
 
+nav {
+    background-color: black;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contenido {
+    width: 80%;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenido h1 {
+    color: #ff6000;
+    font-family: h1header;
+    font-weight: normal;
+}
+
+#portada {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rn9snew {
+    float: left;
+    width: 175px;
+    height: 225px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 1.25em;
+    margin-right: 1.25em;
+    box-shadow: 6px -6px black;
+}
+#rn9snewimg {
+    margin-left: 8px;
+    width: 145px;
+    height: 165px;
+}
+
+#mi11new {
+    float: left;
+    width: 175px;
+    height: 225px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 1.25em;
+    margin-right: 1.25em;
+    box-shadow: 6px -6px black;
+}
+#mi11newimg {
+    margin-left: 7px;
+    width: 145px;
+    height: 165px;
+}
+
+#aliothnew {
+    float: left;
+    width: 175px;
+    height: 225px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 1.25em;
+    margin-right: 1.25em;
+    box-shadow: 6px -6px black;
+}
+#aliothnewimg {
+    width: 165px;
+    height: 165px;
+}
+
+#i13pmaxnew {
+    float: left;
+    width: 175px;
+    height: 225px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 6px;
+    margin-top: 1.25em;
+    margin-right: 1.25em;
+    box-shadow: 6px -6px black;
+}
+#i13pmaxnewimg {
+    width: 165px;
+    height: 165px;
+}
+
+
 footer {
     position: fixed;
 	bottom: 0;
 	left: 50%;
 	transform: translate(-50%);
     background: -moz-linear-gradient(left, #ffffff, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ffffff);
+    background: -webkit-linear-gradient(left, #ffffff, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ffffff);
     height: 30px;
     width: 100%;
 }

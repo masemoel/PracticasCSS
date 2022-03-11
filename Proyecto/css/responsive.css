@@ -1,0 +1,25 @@
+@media only screen and (max-width: 540) {
+	header form {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+	#busquedaimg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 660) {
+	.copy {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1450) {
+	#info {
+        width: 100%;
+    }
+
+    #promo { width: 400px; }
+}
