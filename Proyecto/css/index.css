@@ -21,21 +21,13 @@ header {
 header h1 {
     margin-left: 3em;
     color: #ffffff;
-    padding: 15px;
+    padding: 12px;
     font-family: h1header;
     font-weight: normal;
 }
 
-#busquedaimg {
-    position: absolute;
-    top: 1.25em;
-    right: 15%;
-}
-
 header input {
-    position: absolute;
-    top: 1.5em;
-    right: 4em;
+    float: right;
     height: 25px;
 }
 
@@ -127,6 +119,7 @@ nav a {
     border-radius: 6px;
     margin-top: 1.25em;
     margin-right: 1.25em;
+    margin-bottom: 4em;
     box-shadow: 6px -6px black;
 }
 #i13pmaxnewimg {
@@ -138,27 +131,24 @@ nav a {
 footer {
     position: fixed;
 	bottom: 0;
-	left: 50%;
-	transform: translate(-50%);
     background: -moz-linear-gradient(left, #ffffff, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ffffff);
     background: -webkit-linear-gradient(left, #ffffff, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ff6000, #ffffff);
     height: 30px;
     width: 100%;
 }
 
-.copy {
-    text-align: right;
-    position: absolute;
-    bottom: 5px;
-    right: 6em;
-    font-weight: bold;
-}
-
 #centrosoporte {
-    position: absolute;
-    bottom: 3px;
-	left: 50%;
-	transform: translate(-50%);
+    clear: both;
+    float: left;
     font-weight: bold;
+    padding-top: 4px;
+    padding-left: 4%;
 }
 #centrosoporte a { text-decoration: none; }
+
+.copy {
+    float: right;
+    padding-top: 4px;
+    padding-right: 4%;
+    font-weight: bold;
+}

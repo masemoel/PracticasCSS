@@ -35,8 +35,7 @@ body { font-family: h2header; }
 #promo {
     float: left;
     padding-left: 50px;
-    width: 650px;
-    height: 400px;;
+    width: 540px;
 }
 #promo h1 {
     margin-top: 1em;
@@ -126,6 +125,7 @@ body { font-family: h2header; }
 table {
     clear: both;
     border: 1px solid black;
+    margin-bottom: 4em;
 }
 
 td {

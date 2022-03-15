@@ -1,25 +1,65 @@
-@media only screen and (max-width: 540) {
-	header form {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 1300px) {
-	#busquedaimg {
-        display: none;
+	#info { width: 100%; }
+
+    #promo { width: 540px; }
+}
+
+@media only screen and (max-width: 1038px) {
+	#fotos { margin-left: 20%; }
+
+    #promo {
+        clear: both;
+        padding-left: 0;
+        margin-left: 20%;
     }
 }
 
-@media only screen and (max-width: 660) {
+@media only screen and (max-width: 645px) {
+	#fotos { margin-left: 7%; }
+
+    #promo { margin-left: 7%; }
+}
+
+@media only screen and (max-width: 560px) {
+	#rn9simg, #aliothimg {
+        margin-left: 4%;
+        width: 90%;
+        height: 90%;
+    }
+
+    #mi11img {
+        margin-left: 4%;
+        width: 85%;
+        height: 85%;
+    }
+
+    .cae {
+        clear: both;
+        float: left;
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+	td {
+        width: 40%;
+    }
+
+    table {
+        width: 58%;
+    }
+}
+
+@media only screen and (max-width: 410px) {
 	.copy {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1450) {
-	#info {
-        width: 100%;
+        clear: both;
     }
 
-    #promo { width: 400px; }
+    footer {
+        height: 60px;
+    }
+
+    header h1 {
+        padding-left: 0px;
+    }
 }
